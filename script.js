@@ -89,6 +89,12 @@ button_elem.addEventListener('click', () => {
     getDictData(input_elem.value)
 })
 
+input_elem.addEventListener('keyup', (event) => {
+    if (event.key === 'Enter') {
+        getDictData(input_elem.value)
+    }
+})
+
 pronun_icon_elem.addEventListener('click', () => {
     pronun_audio_elem.play()
 })
