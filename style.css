@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.word_details {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+}
+.word_text {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    font-size: 25px;
+}
+.text{
+    margin-left: 20px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+#search_input {
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    margin-right: 20px;
+    font-size: 18px;
+    border: 1px solid #5E5DF0;
+}
+
+#search_word {
+    background: #5E5DF0;
+    border-radius: 10px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.pronun_icon {
+    margin-right: 10px;
+}
+
+.pronun_icon svg {
+    cursor: pointer;
+}
+
+.pronun_audio {
+    display: none;
+}
+
+.error_container {
+    display: none;
+}
+.partOfSpeech{
+    background-color: cadetblue;
+    color: white;
+    width: 60px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+}
